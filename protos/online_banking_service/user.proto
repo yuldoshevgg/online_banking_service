@@ -1,0 +1,41 @@
+syntax="proto3";
+
+package genproto;
+option go_package="genproto/user_service";
+
+message CreateUserRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message CreateUserResponse {
+  string user_id = 1;
+}
+
+message LoginRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message LoginResponse {
+  string token = 1;
+  string user_id = 2;
+}
+
+message CheckUserExistRequest {
+  string username = 1;
+}
+
+message CheckUserExistResponse {
+  bool exist = 1;
+}
+
+message SignInRequest {
+  string username = 1;
+  string password = 2;
+}
+
+message SignInResponse {
+  string token = 1;
+  string user_id = 2;
+}

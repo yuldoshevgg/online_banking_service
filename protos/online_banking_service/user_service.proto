@@ -1,0 +1,13 @@
+syntax="proto3";
+
+package genproto;
+option go_package="genproto/user_service";
+
+import "user.proto";
+
+service UserService {
+  rpc Create(CreateUserRequest) returns (CreateUserResponse) {}
+  rpc CheckUserExist(CheckUserExistRequest) returns (CheckUserExistResponse) {}
+  rpc Login(LoginRequest) returns (LoginResponse) {}
+  rpc SignIn(SignInRequest) returns (SignInResponse) {}
+}
