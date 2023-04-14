@@ -13,6 +13,7 @@ require (
 	github.com/streamingfast/logging v0.0.0-20221209193439-bff11742bf4c
 	github.com/stretchr/testify v1.8.2
 	github.com/swaggo/gin-swagger v1.6.0
+	github.com/swaggo/swag v1.8.12
 	github.com/tylfin/gin-swagger-files v0.0.0-20210713223015-2b2810b0b948
 	go.uber.org/zap v1.24.0
 	golang.org/x/term v0.7.0
@@ -57,7 +58,6 @@ require (
 	github.com/modern-go/reflect2 v1.0.2 // indirect
 	github.com/pelletier/go-toml/v2 v2.0.6 // indirect
 	github.com/pmezard/go-difflib v1.0.0 // indirect
-	github.com/swaggo/swag v1.8.12 // indirect
 	github.com/twitchyliquid64/golang-asm v0.15.1 // indirect
 	github.com/ugorji/go/codec v1.2.9 // indirect
 	go.uber.org/atomic v1.7.0 // indirect
