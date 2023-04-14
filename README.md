@@ -4,6 +4,7 @@
 
 
 ## Instructions
+ - Open the project and run 'go mod tidy' && 'go mod vendor'
  - Create database with the name of "online_banking_service"
  - Migrate migrations. [migrate -path ./migrations -database 'postgres://{USER}:{PWD}@{HOST}:{PORT}/{DB}?sslmode=disable' up]
  - Run the application
